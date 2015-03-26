@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/domainField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="41dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:ems="10" >
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/domainField"
+        android:layout_alignBottom="@+id/domainField"
+        android:layout_alignParentLeft="true"
+        android:text="@string/domainName" />
+
+    <EditText
+        android:id="@+id/sonarServerPortField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/domainField"
+        android:layout_below="@+id/domainField"
+        android:layout_marginTop="16dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sonarServerPortField"
+        android:layout_alignRight="@+id/textView1"                
+        android:layout_alignParentLeft="true"
+        android:text="@string/sonar_server_port" />
+    
+    <EditText
+        android:id="@+id/servoControllerPortField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sonarServerPortField"
+        android:layout_alignLeft="@+id/domainField"        
+        android:layout_marginTop="16dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"                        
+        android:layout_alignBottom="@+id/servoControllerPortField"
+        android:layout_alignParentLeft="true"
+        android:text="@string/servo_controller_port" />
+    
+</RelativeLayout>

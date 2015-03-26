@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CyborgApp</string>
+    <string name="action_settings">Action Settings</string>
+    <string name="domainName">Server IP:</string>
+    <string name="sonar_server_port">Sonar Port:</string>
+    <string name="servo_controller_port">Servo Port:</string>
+    <string name="open_connection">Open Connection</string>
+    <string name="cancel">Cancel</string>
+    <string name="ServerSettings">Server Settings</string>
+    <string name="ShowCameras">Show Cameras</string>
+    <string name="ShowSonars">Show Sonars</string>
+    <string name="ControlLeftRobotArm">Control Left Robot Arm</string>
+    <string name="ControlRightRobotArm">Control Right Robot Arm</string>
+    <string name="ControlRobotTail">Control Robot Tail</string>
+    <string name="ControlExtraJoints">Control Extra Joints</string>
+    
+</resources>

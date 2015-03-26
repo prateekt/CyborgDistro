@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:id="@+id/ServerSettingsMenuItem"
+          android:title="@string/ServerSettings" />
+	<item android:id="@+id/CameraServerMenuItem"
+          android:title="@string/ShowCameras" />
+	<item android:id="@+id/SonarServerMenuItem"
+          android:title="@string/ShowSonars" />
+	<item android:id="@+id/LeftRobotArmMenuItem"
+          android:title="@string/ControlLeftRobotArm" />
+	<item android:id="@+id/RightRobotArmMenuItem"
+         android:title="@string/ControlRightRobotArm" />
+	<item android:id="@+id/RobotTailMenuItem"
+         android:title="@string/ControlRobotTail" />
+	<item android:id="@+id/ExtraJointsMenuItem"
+        android:title="@string/ControlExtraJoints" />
+				
+</menu>
