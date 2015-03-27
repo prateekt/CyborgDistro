@@ -1,7 +1,7 @@
 # CyborgDistro
 Read about the project here: https://tandonp.wordpress.com/2014/09/01/cyborg-backpack/
 
-The Cyborg Distro is an open source project that allows anyone to build a multi-robot, multi-sensor cyborg. The Cyborg Distro software runs on Raspbian and interfaces with Android phones. Here is the prototype Cyborg of the Distro (https://tandonp.wordpress.com/2014/09/01/cyborg-backpack/).This cyborg has multiple robots -- many arms, grippers, etc. Additionally, it supports many sensor modalities such as sonar and camera. C and Java API libraries are provided with the Distro to control different sensors.
+The Cyborg Distro is an open source project that allows anyone to build an AWESOME multi-robot, multi-sensor cyborg. The Cyborg Distro software runs on Raspbian and interfaces with Android phones. Here is a proto Cyborg of the Distro (https://tandonp.wordpress.com/2014/09/01/cyborg-backpack/). This cyborg has multiple robots -- many arms, grippers, etc. Additionally, it supports many sensor modalities such as sonar and camera. C and Java API libraries are provided with the Distro to control different sensors.
 
 --Cyborg Hardware Specs--
 
@@ -26,7 +26,7 @@ ServoControlServer - Server that runs on Raspberry Pi to control Servo Motors. I
 
 CyborgApp - Android App Project that allows a user to control the Cyborg. The Android App supports real-time visualization of the incoming sensor data. It allows the user to control and send commands to the servo motors to move the arms.
 
-Sensor API - C APIs for various popular off the shelf sensors. This is derived from my blog post (https://tandonp.wordpress.com/2014/10/11/python-sensor-libraries/). You can easily use Python CTypes to automate obtaining data from the sensors in high level python. In fact, the entire system is high-level Python and Java at the end of the day, but we can also control the low level polling details in C if we need to.
+Sensor API - C APIs for various popular off the shelf sensors. This is derived from my blog post (https://tandonp.wordpress.com/2014/10/11/python-sensor-libraries/). You can easily use Python CTypes to automate obtaining data from the sensors in high level python. In fact, the entire higher level logic of the system is written in Python and Java at the end of the day, but we can also control the low level polling details of sensors and actuators in C if we need to.
 
 
 
