@@ -22,7 +22,7 @@ The repository contains four directories.
 RealTimeSystem - Python Scripts and Compiled Jars for Running the System. Includes the Python CameraServer and SonarServer for automating these USB sensors. Looking at this folder is the best way to get off the ground and get a running Cyborg system.
 See CyborgSys.sh for details for the components that need to be run (and flip out components you may not have + add more).
 
-ServoControlServer - Server that runs on Raspberry Pi to control Servo Motors. Interacts with Android App over Sockets to allow user to send commands to the robot for their phone.
+ServoControlServer - Server that runs on Raspberry Pi to control Servo Motors. Interacts with Android App over Sockets to allow user to send commands to the robot from their phone.
 
 CyborgApp - Android App Project that allows a user to control the Cyborg. The Android App supports real-time visualization of the incoming sensor data. It allows the user to control and send commands to the servo motors to move the arms.
 
