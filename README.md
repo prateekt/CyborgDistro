@@ -1,7 +1,7 @@
 # CyborgDistro
 Read more about the project on Hackaday: https://hackaday.io/project/6888-cyborgdistro
 
-The Cyborg Distro is an open source project that allows anyone to build an awesome multi-robot, multi-sensor cyborg. The Cyborg Distro software runs on Raspbian and interfaces with Android phones. 
+The Cyborg Distro is an open source project that allows anyone to build an awesome multi-robot, multi-sensor cyborg. The Cyborg Distro software runs on Raspbian and interfaces with Android phones. Your can use the code in this distro to run on many configurations of hardware and software.  
 
 Here is a proto Cyborg of the Distro (https://tandonp.wordpress.com/autonomous-cyborg-backpack/). This cyborg has multiple robots -- many arms, grippers, etc. Additionally, it supports many sensor modalities such as sonar and camera. C and Java API libraries are provided with the Distro to control different sensors.
 
